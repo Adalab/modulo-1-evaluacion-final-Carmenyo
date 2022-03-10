@@ -1,0 +1,29 @@
+.section1{
+    background-color: $color-1;
+    font-family: $font-main;
+    color: $color-3;
+    text-align: center;
+    padding-top: 41px;
+    padding-left: 45px;
+    padding-right: 47px;
+    padding-bottom: 10px;
+
+    
+    &__article{
+         gap: 30px;
+         text-align: center;
+         margin: 46px;
+
+         &--title {
+             font-weight: bold;
+             font-size: 20px;
+         }
+
+         &--content {
+             font-size: 16px;
+         }
+
+
+    }
+
+}
