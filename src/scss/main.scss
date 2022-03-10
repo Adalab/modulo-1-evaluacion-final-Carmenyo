@@ -1,47 +1,13 @@
 @import "./core/_reset.scss";
 @import "./core/_variables.scss";
+@import "./layout/_header.scss";
+
 
 * {
   margin: 0;
   padding: 0;
 }
 
-.header {
-  background-image: url(../images/header.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y:center;
-  background-position-x:center;
-  height: 389px;
 
-
-  &__title {
-      color: $color-3;
-      text-align: center;
-      margin-top: 98px;
-  }
-
-  &__button {
-      background-color: $color-3;
-      border:0 ;
-      color: $color-5;
-      width: 180px;
-      text-transform: capitalize;
-      height: 48px;
-  }
-
-  &__container {
-    display: flex;
-    align-items: center;
-    margin-left: 33px;
-
-    &--logo {
-        margin-left: 100px;
-        margin-top: 19px;
-       
-      
-    }
-  }
-}
 
 
