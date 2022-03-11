@@ -32,18 +32,24 @@
 
   &__container {
     display: flex;
-    align-items: center;
-    margin-left: 33px;
+    justify-content: center;
+   
 
     &--icon {
       display: flex;
       color: $color-3;
       position: fixed;
+      text-decoration: none;
+      top: 20px;
+      left: 20px;
+
+     
      
     }
     &--logo {
       margin-left: 100px;
       margin-top: 19px;
+      
     }
   }
   &_container2 {
