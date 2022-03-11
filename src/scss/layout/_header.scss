@@ -36,8 +36,10 @@
     margin-left: 33px;
 
     &--icon {
+      display: flex;
       color: $color-3;
-      position: sticky;
+      position: fixed;
+     
     }
     &--logo {
       margin-left: 100px;
