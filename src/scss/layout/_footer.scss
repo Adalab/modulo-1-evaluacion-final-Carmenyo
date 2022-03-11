@@ -1,4 +1,7 @@
+.ul {
+ list-style: none;
 
+}
 .footer {
   background-color: $color-3;
   color: $color-4;
@@ -6,18 +9,12 @@
   text-align: center;
   padding-top: 56px;
  
-
-  &__menu-nav1{
+  &__menu-nav{
     padding-top: 30px;
-  
-  }
+     & li {
+       list-style-type: none;
+     }
 
-  &__menu-nav2{
-    padding-top: 30px;
-  }
-
-  &__menu-nav3{
-    padding-top: 30px;
   }
 
   &__socialmedia{
@@ -30,17 +27,45 @@
   }
 
   &__socialmedia {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+      
+
+
      &--icon {
        color: $color-4;
+       text-decoration:none;
+       margin: 10px;
+     
+       
      }
   }
 
   &__button {
     color: $color-4;
-    transform: translatex(200px);
+  
   }
+  
+  @media all and (min-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      align-items: flex-start;
 
+      &__button {
+        color: $color-4;
+        transform: translatex(10px);
+      }
+     
+      
+    }
+   
 
+  }
 }
 
 

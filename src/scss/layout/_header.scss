@@ -10,13 +10,10 @@
   justify-content: space-between;
   font-family: $font-main;
   font-weight: 600;
- 
-  
 
   &__title {
     color: $color-3;
     text-align: center;
-    margin-top: 98px;
   }
 
   &__button {
@@ -33,23 +30,19 @@
   &__container {
     display: flex;
     justify-content: center;
-   
 
     &--icon {
       display: flex;
       color: $color-3;
       position: fixed;
       text-decoration: none;
-      top: 20px;
-      left: 20px;
-
-     
+      top: 55px;
+      left: 33px;
      
     }
     &--logo {
       margin-left: 100px;
       margin-top: 19px;
-      
     }
   }
   &_container2 {

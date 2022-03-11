@@ -9,8 +9,12 @@
   &__title {
     font-size: 24px;
   }
+
+  &__content {
+    margin-bottom: 20px;
+  }
   &__link {
     font-size: 14px;
-    text-decoration: none;
+    color: $color-5;
   }
 }
