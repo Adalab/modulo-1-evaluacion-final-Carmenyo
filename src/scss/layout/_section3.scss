@@ -51,13 +51,14 @@
     flex-direction: row;
     text-align: center;
     align-items: center;
-  justify-content: space-around;
+    justify-content: space-around;
 
     &__text {
-    
+    justify-content: space-around;
+    align-items: center;
     }
     &__img {
-    
+    background-size: contain
     }
   }
 }

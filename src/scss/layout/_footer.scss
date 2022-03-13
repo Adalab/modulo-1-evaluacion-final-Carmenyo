@@ -44,9 +44,38 @@
 
   &__button {
     color: $color-4;
-    transform: translatex(40px);
+    transform: translatex(60px);
+    transition: border 0.5s ease, box-shadow 0.5s ease;
+    border: 0px solid $color-3;
+    text-shadow: 2px 2px 2px rgb(238, 93, 10);
+    animation-name: light;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   }
+     
+   @keyframes light {
+   
+    10% {
+      color: #e4620b;
+    }
+    30% {
+      color: rgb(189, 226, 25);
+    }
+    50%{
+      color: #1463f7;
+    }
+    70%{
+      color: #09ac2d;
+    }
+    90%{
+      color: #dd0cb0;
+    }
+
+
+    }
   }
-}
+
+
   @media all and (min-width: 768px) {
     .container {
       width: 100%;
@@ -60,6 +89,7 @@
     &__button {
       color: $color-4;
       transform: translatex(40px);
+      
     }
 
   }
