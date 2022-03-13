@@ -54,8 +54,13 @@
       font-family: $font-main;
       font-size: 16px;
       height: 48px;
+      &--link {
+        color: $color-5;
+      }
     }
-  }
+ 
+}
+
 
   &__container2 {
     display: flex;
