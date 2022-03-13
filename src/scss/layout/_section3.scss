@@ -30,8 +30,7 @@
   }
   &__img {
     width: 100%;
-
-    transform: translateY(7px);
+     transform: translateY(7px);
   }
 }
 
@@ -46,9 +45,13 @@
     flex-direction: row;
     text-align: center;
     align-items: center;
+  justify-content: space-around;
 
     &__text {
-      margin: 60px;
+    
+    }
+    &__img {
+    
     }
   }
 }
