@@ -46,7 +46,7 @@
     color: $color-4;
     transform: translatex(40px);
   }
-
+}
   @media all and (min-width: 768px) {
     .container {
       width: 100%;
@@ -62,4 +62,4 @@
       transform: translatex(40px);
     }
 
-}
+  }
