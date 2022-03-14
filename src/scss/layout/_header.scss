@@ -38,7 +38,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    z-index: 999;
+   
 
     &--title {
       color: $color-3;
@@ -93,8 +93,7 @@
           margin-top: 40px;
           gap: 10px;
           padding-left: 20px;
-
         }
-      }
-    }
-  }
+      }     
+}
+}
