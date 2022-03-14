@@ -10,6 +10,7 @@
   justify-content: space-between;
   font-family: $font-main;
   font-weight: 600;
+  font-size: 1.5rem;
 
   &__container {
     width: 100%;
@@ -52,14 +53,18 @@
       width: 176px;
       text-transform: capitalize;
       font-family: $font-main;
-      font-size: 16px;
+      font-size: 1rem;
       height: 48px;
+    
+
+
       &--link {
         color: $color-5;
       }
 
       & :hover {
-        background-color: #ee680e;
+        background-color: $color-2;
+        
       }
     }
  

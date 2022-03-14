@@ -4,27 +4,23 @@
   font-family: $font-main;
   color: $color-3;
   text-align: center;
-  padding-top: 41px;
-  padding-left: 45px;
-  padding-right: 47px;
-  padding-bottom: 10px;
-
-  &__open {
-    text-transform: uppercase;
+  padding: 41px 47px 47px 45px;
+  
+     &__open {
+        text-transform: uppercase;
   }
-
-  &__article {
-    gap: 30px;
-    text-align: center;
-    margin: 46px;
+     &__article {
+     gap: 30px;
+     text-align: center;
+     margin: 46px;
 
     &--title {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 1.25rem;
     }
 
     &--content {
-      font-size: 16px;
+      font-size: 1rem;
     }
 
     &--icon {
