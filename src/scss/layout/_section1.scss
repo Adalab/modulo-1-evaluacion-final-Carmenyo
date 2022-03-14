@@ -5,14 +5,14 @@
   color: $color-3;
   text-align: center;
   padding: 41px 47px 47px 45px;
-  
-     &__open {
-        text-transform: uppercase;
+
+  &__open {
+    text-transform: uppercase;
   }
-     &__article {
-     gap: 30px;
-     text-align: center;
-     margin: 46px;
+  &__article {
+    gap: 30px;
+    text-align: center;
+    margin: 46px;
 
     &--title {
       font-weight: bold;
@@ -29,12 +29,13 @@
       margin-bottom: 30px;
     }
   }
-  @media all and (min-width: 768px) {
-    .container {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    }
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
