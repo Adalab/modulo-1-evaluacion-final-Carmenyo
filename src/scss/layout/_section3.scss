@@ -30,12 +30,12 @@
     height: 48px;
 
     & :hover {
-      background-color: #ee680e;
+      background-color: $color-2;
     }
   }
   &__img {
     width: 100%;
-    height: 304px;
+    height: auto;
   }
 }
 
@@ -51,6 +51,7 @@
     &__text {
       justify-content: space-around;
       align-items: center;
+      
     }
     &__img {
       background-size: cover;
